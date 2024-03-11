@@ -289,7 +289,7 @@ section .container {
 
 @media screen and (max-width: 600px) {
   #Home {
-    padding: 96px 0 0;
+    padding: 90px 0 0;
   }
 }
 
@@ -482,6 +482,7 @@ section .container {
 }
 
 #About {
+  background-color: #BE9058;
   position: relative;
 }
 
@@ -537,7 +538,7 @@ section .container {
 }
 
 #getintouch {
-  background-color: #BE9058;
+  background-color: #ffffff;
   color: #fff;
 }
 
@@ -546,40 +547,40 @@ section .container {
 }
 
 #getintouch p {
-  color: #fff;
+  color: #BE9058;
 }
 
 #getintouch a {
-  color: #fff !important;
+  color: #000000 !important;
 }
 
 #getintouch input {
-  color: #fff;
-  border: 1px solid #fff;
+  color: #BE9058;
+  border: 1px solid #BE9058;
 }
 
 #getintouch input::-webkit-input-placeholder {
-  color: #fff;
+  color: #000000;
 }
 
 #getintouch input:-ms-input-placeholder {
-  color: #fff;
+  color: #000000;
 }
 
 #getintouch input::-ms-input-placeholder {
-  color: #fff;
+  color: #000000;
 }
 
 #getintouch input::placeholder {
-  color: #fff;
+  color: #000000;
 }
 
 #getintouch .text-danger {
-  color: #fff !important;
+  color: #BE9058 !important;
 }
 
 .contact-highlight {
-  border: 5px solid #fff;
+  border: 5px solid #BE9058;
   padding: 1.5rem;
 }
 
@@ -926,7 +927,7 @@ button.btn {
   transition: all 0.6s ease;
   color: #fff;
   transition: all 0.6s ease;
-  border: 1px solid #BE9058;
+  border: 1px solid #ffffff;
   position: relative;
   overflow: hidden;
   text-transform: uppercase;
@@ -941,8 +942,8 @@ button.btn i.fa {
 
 button.btn.btnwhite {
   background: #fff;
-  color: #BE9058;
-  border: 1px solid #fff;
+  color: #000000;
+  border: 1px solid #BE9058;
   z-index: 1;
 }
 
@@ -967,7 +968,7 @@ button.btn::before {
 
 @media screen and (max-width: 600px) {
   button.btn {
-    font-size: 14px;
+    font-size: 10px;
     padding: 0.4rem 1.5rem;
   }
 }
@@ -1144,7 +1145,7 @@ button.btn:focus {
 }
 
 #floor-plan {
-  background-color: #BE9058;
+  background-color: #ffffff;
 }
 .floor-plan img {
   filter: blur(4px);
@@ -1231,8 +1232,8 @@ button.btn:focus {
 }
 
 .btn-outline-instagram {
-  border: 1px solid #dc4a38;
-  color: #dc4a38;
+  border: 1px solid #e91685;
+  color: #e91685;
 }
 
 .btn-outline-twitter:hover {
@@ -1246,7 +1247,7 @@ button.btn:focus {
 }
 
 .btn-outline-instagram:hover {
-  background: #e52d27;
+  background: #e91685;
   color: #ffffff;
 }
 
@@ -1518,5 +1519,11 @@ li {
   }
   #overview .container-fluid .row {
     flex-direction: column;
+  }
+}
+
+@media (max-width: 600px){
+  section .container{
+    padding: 2.5rem;
   }
 }
